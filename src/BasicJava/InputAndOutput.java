@@ -31,6 +31,9 @@ public class InputAndOutput {
 		System.out.println("Nhap string: ");
 		st = input.nextLine();
 		
+		// closing the scanner object
+        input.close();
+		
 	}
 
 }
