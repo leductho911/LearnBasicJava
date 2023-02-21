@@ -1,5 +1,7 @@
 package BasicJava;
 
+// https://viettuts.vn/java/bien-trong-java#goto-h2-1
+
 public class Variable {
     
     public void sayHello() {
