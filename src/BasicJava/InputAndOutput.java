@@ -2,10 +2,11 @@ package BasicJava;
 
 import java.util.Scanner;
 
-public class WorkWithScanner {
+public class InputAndOutput {
+	// https://gochocit.com/ngon-ngu-lap-trinh/nhap-va-xuat-co-ban-basic-input-and-output-trong-java
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		int i;
 		short s;
 		byte b;
@@ -17,9 +18,9 @@ public class WorkWithScanner {
 		char c;
 		
 		System.out.println("Nhap so nguyen: ");
-		i = sc.nextInt();
+		i = input.nextInt();
 		System.out.println("Nhap string: ");
-		st = sc.nextLine();
+		st = input.nextLine();
 		
 	}
 
