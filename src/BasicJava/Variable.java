@@ -21,9 +21,18 @@ public class Variable {
         Variable varOne = new Variable(); // tạo 1 biến varOne có kiểu dữ liệu là Variable trùng tên class
         Variable varTwo = new Variable(); // tạo 1 biến varTwo có kiểu dữ liệu là Variable trùng tên class
         
+                
         varOne.x++;
         varOne.sayHi();
         varTwo.sayHello();
+        
+        
+        StaticVariable varThree = new StaticVariable();
+        System.out.println(varThree.y); //gọi biến y (global) thông qua biến varThree, không thể gọi trực tiếp được
+        System.out.println(StaticVariable.ten); // gọi biến static của file khác thông qua tên class StaticVariable
+        
        
     }
+    
+   
 }
